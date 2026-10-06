@@ -8,8 +8,6 @@
 
 ## 📋 Sobre o projeto
 
-Landing page (_single page_) sobre a série **Os Simpsons**, feita para a **Atividade 4 — Landing Page com HTML, CSS e DOM (JS)**.
-
 A página apresenta os personagens em um carrossel, conta um pouco sobre a cidade de Springfield, mostra as famílias que vivem por lá e traz algumas curiosidades sobre a série.
 
 O projeto foi desenvolvido com foco em:
@@ -101,14 +99,14 @@ Não é necessário instalar nada nem rodar servidor.
 
 Os personagens e as famílias ficam em arrays no início do `js/script.js`. Para adicionar um novo item, basta incluir um objeto na lista e o card é criado automaticamente.
 
-Exemplo — adicionando a imagem de uma família:
+Exemplo —
 
 ```js
 {
     nome: "Família Simpson",
     emoji: "🍩",
     cor: "#fff176",
-    imagem: "img/familia_simpson.png",   // basta incluir esta linha
+    imagem: "img/familia_simpson.png",
     descricao: "A família mais famosa de Springfield.",
     membros: ["Homer", "Marge", "Bart", "Lisa", "Maggie"]
 }
@@ -118,10 +116,8 @@ Exemplo — adicionando a imagem de uma família:
 
 ## ⚠️ Limitações atuais
 
-- As famílias **Simpson** e **Flanders** ainda não têm imagem, então ao clicar elas mostram a lista com o nome dos membros.
 - As curiosidades estão escritas direto no HTML (não vêm de um array como os cards).
 - O carrossel **não avança sozinho**: é preciso clicar nas setas.
-- Algumas imagens (`logo.png` e `icone_rosquinha.png`) ainda não estão otimizadas e pesam mais de 1 MB.
 
 ---
 
